@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Museo Sans Cyrl 500'; /* Гарнитура шрифта */
+    src: url(../font/MuseoSansCyrl-900.ttf); /* Путь к файлу со шрифтом */
+}
+h1 {
+    font-family: 'Museo Sans Cyrl 900';
+    font-weight: bold;
+    font-style: normal;
+}
