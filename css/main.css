@@ -1,9 +1,60 @@
+/* @font-face {
+    font-family: 'Museo Sans Cyrl 500';
+    src: url(../fonts/MuseoSansCyrl/MuseoSansCyrl-900.ttf);
+    src: url(../fonts/MuseoSansCyrl/MuseoSansCyrl-500.ttf);
+    src: url(../fonts/MuseoSansCyrl/MuseoSansCyrl-300.ttf);
+    src: url(../fonts/MuseoSansCyrl/MuseoSansCyrl-100.ttf);
+} */
+
 @font-face {
-    font-family: 'Museo Sans Cyrl 500'; /* Гарнитура шрифта */
-    src: url(../font/MuseoSansCyrl-900.ttf); /* Путь к файлу со шрифтом */
+    font-family: 'Roboto', sans-serif; /* Гарнитура шрифта */
+    src: url(../fonts/Roboto/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/Roboto/Roboto-Bold.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/Roboto/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/Roboto/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/Roboto/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/Roboto/Roboto-Thin.ttf); /* Путь к файлу со шрифтом */
 }
+
 h1 {
     font-family: 'Museo Sans Cyrl 900';
     font-weight: bold;
     font-style: normal;
 }
+
+/* Museo */
+.text_museo_100 {
+    font-family: 'Museo Sans Cyrl 100';
+}
+
+.text_museo_300 {
+    font-family: 'Museo Sans Cyrl 300';
+}
+
+.text_museo_500 {
+    font-family: 'Museo Sans Cyrl 500';
+}
+
+
+/* Roboto */
+
+.text_roboto_black {
+    font-family: 'Roboto Black';
+}
+.text_roboto_bold {
+    font-family: 'Roboto Bold';
+}
+.text_roboto_regular {
+    font-family: 'Roboto Regular';
+}
+.text_roboto_medium {
+    font-family: 'Roboto Medium';
+}
+.text_roboto_light {
+    font-family: 'Roboto Light';
+}
+.text_roboto_thin {
+    font-family: 'Roboto Thin';
+}
+
+
